@@ -1,0 +1,364 @@
+/* Most Common Used Break Points _ 1366px 1024px 768px 568px */
+/* Custom Break Points as per Website/Layout Needs _ 1200px 600px */
+/*#############################################################################*/
+/*################################$(1366px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 1366px) {
+	.container {
+		max-width: 1250px;
+	}
+	/* Section Services */
+	.services-cards-row:first-of-type {
+		margin-bottom: 25rem;
+	}
+	.services-cards-row {
+		padding: 1rem;
+	}
+	/* Meet Our Team Section */
+	.team-icons a {
+		margin-top: 5rem;
+	}
+	.team-icons .nav-social-icon {
+		font-size: 3.2rem;
+	}
+	/* Contact Us Section */
+	.section-contactus {
+		padding: 4rem 0rem;
+		background-image: linear-gradient(
+				105deg,
+				transparent 35%,
+				rgb(2, 61, 138, 0.9) 35%,
+				rgb(0, 118, 182, 0.8)
+			),
+			url(../images/25-contactus.jpg);
+	}
+}
+/*#############################################################################*/
+/*################################$(1200px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 1200px) {
+	.container {
+		max-width: 1100px;
+	}
+	/* Nav Bar */
+	.menu li:not(:first-child) {
+		margin-left: 2.5rem;
+	}
+	.navbar-icons a:not(:first-child) {
+		margin-left: 2.5rem;
+	}
+	.nav-social-icon {
+		font-size: 2.5rem;
+	}
+	.menu-links:link,
+	.menu-links:visited {
+		font-size: 2rem;
+	}
+	/* Section-cards */
+	.card {
+		padding: 3rem 0rem;
+	}
+	/* Meet Our Team Section */
+	.team-icons a {
+		margin-top: 4rem;
+	}
+	.team-icons .nav-social-icon {
+		font-size: 3rem;
+	}
+}
+/*#############################################################################*/
+/*################################$(1024px)$###################################*/
+/*#############################################################################*/
+@media (max-width: 1024px) {
+	.container {
+		max-width: 950px;
+	}
+	/* Logo Bar */
+	.icon-text {
+		display: none;
+	}
+	.logobar-div {
+		position: relative;
+	}
+	.logobar-text-extra {
+		position: absolute;
+		top: 50%;
+		right: 50%;
+		transform: translate(50%, -50%);
+		-webkit-transform: translate(50%, -50%);
+		-moz-transform: translate(50%, -50%);
+		-ms-transform: translate(50%, -50%);
+		-o-transform: translate(50%, -50%);
+	}
+	/* Nav Bar */
+	.menu li:not(:first-child) {
+		margin-left: 2rem;
+	}
+	.navbar-icons a:not(:first-child) {
+		margin-left: 2rem;
+	}
+	.nav-social-icon {
+		font-size: 2rem;
+	}
+	.menu-links:link,
+	.menu-links:visited {
+		font-size: 1.7rem;
+	}
+	/* Hero Image  */
+	.hero-heading {
+		font-size: 3.5rem;
+	}
+	/* Section-cards */
+	.card {
+		padding: 3rem 2rem;
+		width: 50%;
+	}
+	/* Section-Aboutus */
+	.aboutus-image {
+		padding: 3rem 0rem 3rem 2rem;
+	}
+	.aboutus-para {
+		line-height: 2rem;
+	}
+	/* Section Services */
+	.service-card {
+		width: 100%;
+	}
+	.service-card-btn:link,
+	.service-card-btn:visited {
+		bottom: 20%;
+	}
+	/* Section Quote */
+	.section-quote {
+		padding: 10rem 2rem;
+	}
+	.quote-heading {
+		font-size: 4rem;
+	}
+	/* Number Section */
+	.number-text {
+		font-size: 8rem;
+	}
+	.number-text span {
+		font-size: 4rem;
+	}
+	/* Meet Our Team Section */
+	.team-icons a {
+		margin-top: 2.5rem;
+	}
+	.team-icons .nav-social-icon {
+		font-size: 3rem;
+	}
+	/* Contact Us Section */
+	.section-contactus {
+		padding: 4rem 0rem;
+		background-image: linear-gradient(
+				rgb(2, 61, 138, 0.9),
+				rgb(0, 118, 182, 0.8)
+			),
+			url(../images/25-contactus.jpg);
+	}
+	.form-div {
+		width: 100%;
+		padding-right: 4rem;
+	}
+	/* Footer Section */
+	.footer-text-services {
+		width: 100%;
+	}
+	.footer-text-middle {
+		width: 50%;
+	}
+	.footer-text-newsletter {
+		width: 50%;
+	}
+}
+/*#############################################################################*/
+/*################################$(768px)$####################################*/
+/*#############################################################################*/
+@media (max-width: 768px) {
+	.container {
+		max-width: 700px;
+	}
+	/* Logo Bar */
+	.logobar-div:nth-child(2),
+	.logobar-div:nth-child(3) {
+		display: none;
+	}
+	.logobar-div {
+		width: calc(100% / 2);
+	}
+	/* Nav Bar */
+	.menu-links:link,
+	.menu-links:visited {
+		font-size: 1.7rem;
+	}
+	.navbar-icons {
+		display: none;
+	}
+	.menu li:not(:first-child) {
+		margin-left: 2rem;
+	}
+	/* Hero Image  */
+	.hero-heading {
+		font-size: 3rem;
+	}
+	/* Section-Aboutus */
+	.aboutus-image {
+		width: 100%;
+		padding: 0rem;
+	}
+	.aboutus-text {
+		width: 100%;
+		text-align: center;
+	}
+	.aboutus-heading {
+		font-size: 2.5rem;
+	}
+	.aboutus-icon-img {
+		height: 5rem;
+	}
+	.icon-heading {
+		font-size: 1.5rem;
+		margin-top: 1.5rem;
+	}
+	/* Section Services */
+	.service-card {
+		margin-bottom: 5rem;
+		text-align: center;
+	}
+	.service-card-image {
+		width: 100%;
+	}
+	.service-card-text {
+		width: 100%;
+		margin-top: 2rem;
+	}
+	.service-card-btn:link,
+	.service-card-btn:visited {
+		bottom: 0%;
+		right: 50%;
+		transform: translate(50%, 75%);
+		-webkit-transform: translate(50%, 75%);
+		-moz-transform: translate(50%, 75%);
+		-ms-transform: translate(50%, 75%);
+		-o-transform: translate(50%, 75%);
+	}
+	/* Section Quote */
+	.section-quote {
+		padding: 10rem 2rem;
+	}
+	.quote-heading {
+		font-size: 3rem;
+	}
+	/* Number Section */
+	.number-text {
+		font-size: 7rem;
+	}
+	.number-text span {
+		font-size: 3rem;
+	}
+	.number-subtext {
+		font-size: 1.5rem;
+	}
+	/* Meet Our Team Section */
+	.team-card {
+		width: calc((100% - 6rem) / 4);
+	}
+	.team-card:not(:first-of-type) {
+		margin-left: 2rem;
+	}
+	.team-icons a {
+		margin-top: 2.2rem;
+	}
+	.team-icons .nav-social-icon {
+		font-size: 2.5rem;
+	}
+	/* Footer Section */
+	.footer-contact-num-text:last-of-type {
+		font-size: 1.5rem;
+	}
+}
+/*#############################################################################*/
+/*################################$(600px)$####################################*/
+/*#############################################################################*/
+@media (max-width: 600px) {
+	.container {
+		max-width: 550px;
+	}
+	/* Nav Bar */
+	.menu li:not(:first-child) {
+		margin-left: 2rem;
+	}
+	.menu-links:link,
+	.menu-links:visited {
+		font-size: 1.5rem;
+	}
+	/* Hero Image  */
+	.hero-heading {
+		font-size: 2.5rem;
+	}
+	/* Section-cards */
+	.card {
+		padding: 3rem 0rem;
+	}
+	/* Section Quote */
+	.quote-heading {
+		font-size: 3rem;
+	}
+	/* Number Section */
+	.number-text {
+		font-size: 5rem;
+	}
+	.number-text span {
+		font-size: 2.5rem;
+	}
+	.number-subtext {
+		font-size: 1.4rem;
+	}
+	/* Meet Our Team Section */
+	.team-icons a {
+		margin-top: 2rem;
+	}
+	.team-icons .nav-social-icon {
+		font-size: 2rem;
+	}
+}
+/*#############################################################################*/
+/*################################$(568px)$####################################*/
+/*#############################################################################*/
+@media (max-width: 568px) {
+	/* Container  */
+	.container {
+		max-width: 520px;
+	}
+	/* Nav Bar */
+	.menu li:not(:first-child) {
+		margin-left: 1.6rem;
+	}
+	.menu-links:link,
+	.menu-links:visited {
+		font-size: 1.4rem;
+	}
+	/* Section-cards */
+	.card {
+		width: 100%;
+		padding: 3rem 2rem;
+	}
+	/* Section-Aboutus */
+	.aboutus-icon-img {
+		height: 3.5rem;
+	}
+	.icon-heading {
+		font-size: 1.3rem;
+		margin-top: 1rem;
+	}
+	/* Section Quote */
+	.quote-heading {
+		font-size: 2.5rem;
+	}
+	/* Meet Our Team Section */
+	.team-icons a {
+		margin-top: 1.5rem;
+	}
+}
